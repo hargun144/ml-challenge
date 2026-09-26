@@ -22,7 +22,7 @@ from collections import defaultdict
 # ---------------------------------------------------------------------------
 # CONFIG
 # ---------------------------------------------------------------------------
-DATA_DIR = r"C:\Users\hp\Downloads\6ab10eb3b23ba_student_resource\student_resource\dataset\train"
+DATA_DIR = r"processed\train"
 S1_SAMPLE_ROWS = None       # FULL RUN: was 50_000 (dev sample) -> None (all ~2.2M S1 records)
 S2_SAMPLE_ROWS = None       # MUST be None (full load) for recall to mean anything
 S3_SAMPLE_ROWS = None       # MUST be None (full load) for recall to mean anything
